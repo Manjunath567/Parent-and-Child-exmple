@@ -1,0 +1,17 @@
+import React, { Component } from 'react';
+//import logo from './logo.svg';
+//import './App.css';
+import Parent from './Component/Parent/Parent';
+
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+      Hello
+      <Parent/>
+      </div>
+    );
+  }
+}
+
+export default App;
